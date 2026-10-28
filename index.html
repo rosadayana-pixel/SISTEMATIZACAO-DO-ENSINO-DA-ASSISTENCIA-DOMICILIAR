@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia de Apoio à Preceptoria em MFC</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #243447;
+      background: #f4f7fb;
+      line-height: 1.6;
+    }
+    header {
+      background: #123b60;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 10px; font-size: 30px; }
+    header p { margin: 0; }
+    nav {
+      background: #ffffff;
+      padding: 14px;
+      text-align: center;
+      border-bottom: 1px solid #dce4ec;
+    }
+    nav a {
+      color: #174e78;
+      margin: 8px 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      max-width: 1050px;
+      margin: 30px auto;
+      padding: 0 18px;
+    }
+    .intro {
+      background: white;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px #173b6010;
+      margin-bottom: 25px;
+    }
+    h2 { color: #174e78; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 12px;
+      border: 1px solid #dce4ec;
+    }
+    .card h3 { color: #174e78; margin-top: 0; }
+    .button {
+      display: inline-block;
+      background: #176b87;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 7px;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+    .notice {
+      background: #e7f2f8;
+      padding: 18px;
+      border-left: 4px solid #176b87;
+      margin-top: 25px;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #123b60;
+      color: white;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 24px; }
+      nav a { display: inline-block; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Guia de Apoio à Preceptoria em MFC</h1>
+    <p>Sistematização do ensino da avaliação e estratificação do cuidado domiciliar</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#roteiro">Visita domiciliar</a>
+    <a href="#instrumentos">Instrumentos</a>
+    <a href="#casos">Casos clínicos</a>
+    <a href="#orientacoes">Orientações</a>
+  </nav>
+
+  <main>
+    <section class="intro" id="inicio">
+      <h2>Bem-vindo(a) ao ambiente de aprendizagem</h2>
+      <p>
+        Este espaço educacional foi desenvolvido para apoiar preceptores
+        e residentes de Medicina de Família e Comunidade no ensino e na
+        aprendizagem da atenção domiciliar na Atenção Primária à Saúde.
+      </p>
+      <p>
+        O objetivo é organizar o estudo, estimular o raciocínio clínico
+        e apoiar a discussão de situações encontradas no cuidado às
+        pessoas acompanhadas no domicílio.
+      </p>
+    </section>
+
+    <section id="roteiro">
+      <h2>Roteiro para visita domiciliar</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>1. Avaliação inicial</h3>
+          <p>Organização das informações clínicas, funcionais, familiares
+          e ambientais relevantes para o planejamento do cuidado.</p>
+        </article>
+        <article class="card">
+          <h3>2. Planejamento do cuidado</h3>
+          <p>Discussão da elegibilidade para atenção domiciliar, das
+          necessidades identificadas e da organização do acompanhamento.</p>
+        </article>
+        <article class="card">
+          <h3>3. Aspectos éticos</h3>
+          <p>Reflexão sobre autonomia, consentimento, privacidade e
+          participação da pessoa e de sua família nas decisões.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="instrumentos">
+      <h2>Instrumentos de avaliação</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Risco e vulnerabilidade familiar</h3>
+          <p>Espaço para estudo orientado da escala de Coelho e Savassi,
+          sua finalidade e aplicação.</p>
+        </article>
+        <article class="card">
+          <h3>Complexidade assistencial</h3>
+          <p>Área destinada ao estudo da classificação da complexidade
+          do cuidado domiciliar e das modalidades de assistência.</p>
+        </article>
+        <article class="card">
+          <h3>Outros instrumentos</h3>
+          <p>Espaço para organizar os demais instrumentos previstos
+          no guia, conforme suas fontes e critérios originais.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="casos">
+      <h2>Casos clínicos para aprendizagem</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Discussão de casos</h3>
+          <p>Área destinada a casos clínicos simulados para exercitar
+          o raciocínio clínico e o planejamento da atenção domiciliar.</p>
+        </article>
+        <article class="card">
+          <h3>Perguntas orientadoras</h3>
+          <p>Questões para apoiar a análise da elegibilidade, das
+          necessidades assistenciais e do plano de acompanhamento.</p>
+        </article>
+        <article class="card">
+          <h3>Gabaritos comentados</h3>
+          <p>Espaço para respostas justificadas com base nas referências
+          técnicas e nos documentos adotados no guia.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="notice" id="orientacoes">
+      <h2>Orientações de uso</h2>
+      <p>
+        Este ambiente tem finalidade educacional. As decisões assistenciais
+        devem considerar a avaliação individual, as normas vigentes, as
+        referências utilizadas e a realidade dos serviços de saúde.
+      </p>
+      <p>
+        Os instrumentos e seus critérios deverão ser apresentados de acordo
+        com as respectivas fontes, sem substituir o julgamento clínico.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto educacional de apoio à preceptoria em Medicina de Família e Comunidade</p>
+    <p>Petrolina – PE | 2026</p>
+  </footer>
+</body>
+</html>
