@@ -6,39 +6,39 @@
 <meta name="description" content="Guia educacional de apoio à preceptoria em Medicina de Família e Comunidade: atenção domiciliar, instrumentos, referências e recursos de aprendizagem.">
 <title>Guia de Atenção Domiciliar | MFC</title>
 <style>
-:root{--navy:#15324b;--teal:#187c78;--mint:#e9f5f2;--ink:#203040;--muted:#5c6b78;--line:#dbe5e9;--paper:#fff;--bg:#f4f7f8;--gold:#946b13}
+:root{--navy:#123b60;--teal:#176b87;--mint:#e7f2f8;--ink:#243447;--muted:#5c6b78;--line:#dce4ec;--paper:#fff;--bg:#f4f7fb;--gold:#946b13}
 *{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
-header{background:linear-gradient(125deg,#15324b,#187c78);color:white;padding:54px 22px 48px}
+header{background:#123b60;color:white;padding:30px 20px;text-align:center}
 .wrap{max-width:1050px;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700;opacity:.9}
-h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.12;margin:.5rem 0 1rem;max-width:800px}
-header p{font-size:1.1rem;max-width:760px;margin:0;color:#e8f5f5}
+h1{font-size:30px;line-height:1.2;margin:0 0 10px;max-width:none}
+header p{font-size:1rem;max-width:none;margin:0;color:white}
 nav{background:white;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
-nav .wrap{display:flex;gap:20px;flex-wrap:wrap;padding:12px 22px}nav a{color:var(--navy);font-weight:700;text-decoration:none;font-size:.93rem}
-main{padding:30px 22px 60px}.intro{font-size:1.08rem;max-width:850px}
+nav .wrap{display:block;text-align:center;padding:6px 14px}nav a{color:#174e78;margin:8px 12px;text-decoration:none;font-weight:700;font-size:1rem}
+main{max-width:1050px;margin:30px auto;padding:0 18px 40px}.intro{font-size:1.08rem;max-width:850px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:17px;margin:22px 0 34px}
-.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 4px 14px #15324b0b}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:22px;box-shadow:0 3px 12px #173b6010}
 .card h3{margin:.15rem 0 .6rem;color:var(--navy);font-size:1.12rem;line-height:1.3}
 .tag{display:inline-block;font-size:.75rem;font-weight:700;border-radius:999px;background:var(--mint);color:#17615d;padding:4px 10px;margin-bottom:12px}
 .tag.warn{background:#fff3d8;color:#76530a}
 p{margin:.55rem 0}.small{font-size:.9rem;color:var(--muted)}
-.btn{display:inline-block;background:var(--teal);color:white!important;text-decoration:none;padding:10px 14px;border-radius:9px;font-weight:700;margin-top:10px}
+.btn{display:inline-block;background:#176b87;color:white!important;text-decoration:none;padding:10px 14px;border-radius:9px;font-weight:700;margin-top:10px}
 .btn.secondary{background:#eef4f6;color:var(--navy)!important;border:1px solid var(--line)}
 h2{color:var(--navy);margin:38px 0 10px;font-size:1.65rem}
 .notice{border-left:4px solid var(--gold);background:#fff8e8;padding:16px 18px;border-radius:0 10px 10px 0}
-.steps{counter-reset:step;list-style:none;padding:0}.steps li{counter-increment:step;margin:12px 0;padding:14px 15px;background:white;border:1px solid var(--line);border-radius:10px}.steps li:before{content:counter(step);display:inline-grid;place-items:center;width:28px;height:28px;background:var(--mint);color:var(--teal);font-weight:700;border-radius:50%;margin-right:10px}
+.steps{counter-reset:step;list-style:none;padding:0}.steps li{counter-increment:step;margin:12px 0;padding:14px 15px;background:white;border:1px solid var(--line);border-radius:10px}.steps li:before{content:counter(step);display:inline-grid;place-items:center;width:28px;height:28px;background:#e7f2f8;color:#176b87;font-weight:700;border-radius:50%;margin-right:10px}
 footer{background:#10283b;color:#e9f2f6;padding:26px 22px;font-size:.9rem}footer a{color:#b8e8e3}
 a{overflow-wrap:anywhere}
 @media(max-width:560px){header{padding-top:38px}nav .wrap{gap:12px}main{padding-left:16px;padding-right:16px}}
 
-.calculator{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;margin:18px 0 34px;box-shadow:0 4px 14px #15324b0b}
+.calculator{background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px;margin:18px 0 34px;box-shadow:0 3px 12px #173b6010}
 .calc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
 .calc-item{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px;border:1px solid var(--line);border-radius:10px;background:#fbfdfd}
 .calc-item label{font-weight:600;flex:1}.calc-item input[type=number]{width:76px;padding:8px;border:1px solid #bdcbd2;border-radius:7px;font:inherit}
 .calc-item .score{white-space:nowrap;color:var(--muted);font-size:.88rem}
-.calc-result{margin-top:18px;padding:18px;background:var(--mint);border-radius:12px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px}
+.calc-result{margin-top:18px;padding:18px;background:#e7f2f8;border-left:4px solid #176b87;border-radius:5px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px}
 .calc-total{font-size:2rem;font-weight:800;color:var(--navy)}
 .calc-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
-.calc-actions button{border:0;border-radius:9px;padding:10px 14px;font:inherit;font-weight:700;cursor:pointer;background:var(--teal);color:white}
+.calc-actions button{border:0;border-radius:9px;padding:10px 14px;font:inherit;font-weight:700;cursor:pointer;background:#176b87;color:white}
 .calc-actions button.secondary{background:#eef4f6;color:var(--navy);border:1px solid var(--line)}
 .calc-note{font-size:.92rem;color:var(--muted)}
 .calc-status{font-weight:700;color:var(--navy)}
@@ -48,15 +48,19 @@ a{overflow-wrap:anywhere}
 <body>
 <header>
   <div class="wrap">
-    <div class="eyebrow">Recurso educacional aberto</div>
-    <h1>Guia de Atenção Domiciliar na Medicina de Família e Comunidade</h1>
-    <p>Apoio à preceptoria, à aprendizagem clínica e à organização da avaliação domiciliar no território.</p>
+    <h1>Guia de Apoio à Preceptoria em MFC</h1>
+    <p>Sistematização do ensino da avaliação e estratificação do cuidado domiciliar</p>
   </div>
 </header>
 <nav><div class="wrap">
-  <a href="#instrumentos">Instrumentos</a><a href="#como-usar">Como usar</a><a href="#aprendizagem">Aprendizagem</a><a href="#creditos">Fontes e licenças</a>
+  <a href="index.html">Início</a>
+  <a href="index.html#roteiro">Visita domiciliar</a>
+  <a href="index.html#instrumentos">Instrumentos</a>
+  <a href="index.html#casos">Casos clínicos</a>
+  <a href="index.html#orientacoes">Orientações</a>
 </div></nav>
 <main class="wrap">
+  <p><a class="btn secondary" href="index.html">← Voltar à página principal</a></p>
   <p class="intro">Este espaço reúne referências e links para instrumentos relacionados à avaliação familiar, à complexidade assistencial e aos cuidados paliativos no domicílio. Consulte sempre a publicação original, confirme a versão utilizada e interprete os resultados junto ao contexto clínico, funcional, familiar e social.</p>
 
   <h2 id="instrumentos">Instrumentos e fontes originais</h2>
