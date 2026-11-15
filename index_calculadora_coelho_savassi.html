@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Guia educacional de apoio à preceptoria em Medicina de Família e Comunidade: atenção domiciliar, instrumentos, referências e recursos de aprendizagem.">
+<title>Guia de Atenção Domiciliar | MFC</title>
+<style>
+:root{--navy:#15324b;--teal:#187c78;--mint:#e9f5f2;--ink:#203040;--muted:#5c6b78;--line:#dbe5e9;--paper:#fff;--bg:#f4f7f8;--gold:#946b13}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+header{background:linear-gradient(125deg,#15324b,#187c78);color:white;padding:54px 22px 48px}
+.wrap{max-width:1050px;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700;opacity:.9}
+h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.12;margin:.5rem 0 1rem;max-width:800px}
+header p{font-size:1.1rem;max-width:760px;margin:0;color:#e8f5f5}
+nav{background:white;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+nav .wrap{display:flex;gap:20px;flex-wrap:wrap;padding:12px 22px}nav a{color:var(--navy);font-weight:700;text-decoration:none;font-size:.93rem}
+main{padding:30px 22px 60px}.intro{font-size:1.08rem;max-width:850px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:17px;margin:22px 0 34px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 4px 14px #15324b0b}
+.card h3{margin:.15rem 0 .6rem;color:var(--navy);font-size:1.12rem;line-height:1.3}
+.tag{display:inline-block;font-size:.75rem;font-weight:700;border-radius:999px;background:var(--mint);color:#17615d;padding:4px 10px;margin-bottom:12px}
+.tag.warn{background:#fff3d8;color:#76530a}
+p{margin:.55rem 0}.small{font-size:.9rem;color:var(--muted)}
+.btn{display:inline-block;background:var(--teal);color:white!important;text-decoration:none;padding:10px 14px;border-radius:9px;font-weight:700;margin-top:10px}
+.btn.secondary{background:#eef4f6;color:var(--navy)!important;border:1px solid var(--line)}
+h2{color:var(--navy);margin:38px 0 10px;font-size:1.65rem}
+.notice{border-left:4px solid var(--gold);background:#fff8e8;padding:16px 18px;border-radius:0 10px 10px 0}
+.steps{counter-reset:step;list-style:none;padding:0}.steps li{counter-increment:step;margin:12px 0;padding:14px 15px;background:white;border:1px solid var(--line);border-radius:10px}.steps li:before{content:counter(step);display:inline-grid;place-items:center;width:28px;height:28px;background:var(--mint);color:var(--teal);font-weight:700;border-radius:50%;margin-right:10px}
+footer{background:#10283b;color:#e9f2f6;padding:26px 22px;font-size:.9rem}footer a{color:#b8e8e3}
+a{overflow-wrap:anywhere}
+@media(max-width:560px){header{padding-top:38px}nav .wrap{gap:12px}main{padding-left:16px;padding-right:16px}}
+
+.calculator{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;margin:18px 0 34px;box-shadow:0 4px 14px #15324b0b}
+.calc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.calc-item{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px;border:1px solid var(--line);border-radius:10px;background:#fbfdfd}
+.calc-item label{font-weight:600;flex:1}.calc-item input[type=number]{width:76px;padding:8px;border:1px solid #bdcbd2;border-radius:7px;font:inherit}
+.calc-item .score{white-space:nowrap;color:var(--muted);font-size:.88rem}
+.calc-result{margin-top:18px;padding:18px;background:var(--mint);border-radius:12px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px}
+.calc-total{font-size:2rem;font-weight:800;color:var(--navy)}
+.calc-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.calc-actions button{border:0;border-radius:9px;padding:10px 14px;font:inherit;font-weight:700;cursor:pointer;background:var(--teal);color:white}
+.calc-actions button.secondary{background:#eef4f6;color:var(--navy);border:1px solid var(--line)}
+.calc-note{font-size:.92rem;color:var(--muted)}
+.calc-status{font-weight:700;color:var(--navy)}
+
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Recurso educacional aberto</div>
+    <h1>Guia de Atenção Domiciliar na Medicina de Família e Comunidade</h1>
+    <p>Apoio à preceptoria, à aprendizagem clínica e à organização da avaliação domiciliar no território.</p>
+  </div>
+</header>
+<nav><div class="wrap">
+  <a href="#instrumentos">Instrumentos</a><a href="#como-usar">Como usar</a><a href="#aprendizagem">Aprendizagem</a><a href="#creditos">Fontes e licenças</a>
+</div></nav>
+<main class="wrap">
+  <p class="intro">Este espaço reúne referências e links para instrumentos relacionados à avaliação familiar, à complexidade assistencial e aos cuidados paliativos no domicílio. Consulte sempre a publicação original, confirme a versão utilizada e interprete os resultados junto ao contexto clínico, funcional, familiar e social.</p>
+
+  <h2 id="instrumentos">Instrumentos e fontes originais</h2>
+  <div class="grid">
+    <article class="card">
+      <span class="tag">Risco familiar</span>
+      <h3>Escala de Risco Familiar de Coelho-Savassi</h3>
+      <p>Instrumento de estratificação de risco familiar que pode apoiar o planejamento e a priorização das visitas domiciliares na APS.</p>
+      <p class="small"><strong>Fonte:</strong> Coelho FLG; Savassi LCM. Artigo publicado na Revista Brasileira de Medicina de Família e Comunidade (2004).</p>
+      <a class="btn" href="https://rbmfc.org.br/rbmfc/article/view/104" target="_blank" rel="noopener">Acessar artigo original ↗</a>
+      <a class="btn secondary" href="https://jmphc.com.br/jmphc/article/view/155" target="_blank" rel="noopener">Consultar sistematização ↗</a>
+    </article>
+
+    <article class="card">
+      <span class="tag">Calculadora educacional</span>
+      <h3>Cálculo da Escala de Risco Familiar de Coelho-Savassi</h3>
+      <p>Selecione os fatores presentes na família e informe quantos integrantes apresentam cada condição individual. O cálculo organiza os critérios descritos na publicação de 2012.</p>
+      <a class="btn" href="#calculadora-coelho-savassi">Abrir calculadora ↓</a>
+    </article>
+
+    <article class="card">
+      <span class="tag">Complexidade assistencial</span>
+      <h3>Classificação da complexidade assistencial em atenção domiciliar no SUS</h3>
+      <p>Consulte a publicação que apresenta a classificação e suas definições operacionais. Confira se a versão corresponde àquela utilizada no seu serviço.</p>
+      <p class="small"><strong>Fonte complementar:</strong> Caderno de Atenção Domiciliar, Ministério da Saúde.</p>
+      <a class="btn" href="https://bvsms.saude.gov.br/bvs/publicacoes/caderno_atencao_domiciliar_melhor_casa.pdf" target="_blank" rel="noopener">Abrir Caderno de Atenção Domiciliar ↗</a>
+      <a class="btn secondary" href="https://repositorio.unb.br/handle/10482/30041" target="_blank" rel="noopener">Consultar estudo do instrumento ↗</a>
+    </article>
+
+    <article class="card">
+      <span class="tag warn">Confirmar versão</span>
+      <h3>Escala de risco e vulnerabilidade para atenção domiciliar na APS</h3>
+      <p>O material de referência do Ministério da Saúde apresenta instrumento de classificação de risco e vulnerabilidade clínica para pacientes em visita domiciliar na APS. Confirme a correspondência com a escala usada no seu projeto antes de aplicá-la.</p>
+      <p class="small"><strong>Fonte:</strong> manual “Atenção Domiciliar na Atenção Primária à Saúde” (2020), incluindo referências a instrumentos adaptados.</p>
+      <a class="btn" href="https://bvsms.saude.gov.br/bvs/publicacoes/atencao_domiciliar_primaria_saude.pdf" target="_blank" rel="noopener">Abrir manual do Ministério da Saúde ↗</a>
+      <p class="small">Nota: este link é uma fonte para conferência; não confirma sozinho que seja exatamente a mesma versão citada no projeto.</p>
+    </article>
+
+    <article class="card">
+      <span class="tag warn">Permissão necessária para reprodução</span>
+      <h3>Palliative Performance Scale (PPSv2)</h3>
+      <p>Escala utilizada para descrever funcionalidade e declínio clínico em contextos de cuidados paliativos. A página oficial orienta sobre as condições de uso e solicitação de autorização.</p>
+      <p class="small"><strong>Fonte oficial:</strong> Victoria Hospice Society.</p>
+      <a class="btn" href="https://victoriahospice.org/how-we-can-help/clinical-tools/" target="_blank" rel="noopener">Consultar ferramenta oficial e condições de uso ↗</a>
+    </article>
+  </div>
+
+  <div class="notice">
+    <strong>Atenção aos direitos autorais:</strong> este site direciona o usuário às fontes de referência; isso não significa que todos os instrumentos possam ser copiados, traduzidos, adaptados ou incorporados integralmente ao site. Para a PPSv2, solicite autorização para uso educacional/publicação. Para as demais escalas, confirme a fonte e a licença da versão exata antes de reproduzir tabelas ou criar formulários digitais.
+  </div>
+
+
+  <h2 id="calculadora-coelho-savassi">Calculadora educacional — Escala de Risco Familiar de Coelho-Savassi</h2>
+  <div class="calculator">
+    <p>Informe a quantidade de pessoas da família que apresentam cada sentinela individual. Para as condições ambientais/familiares, marque a opção correspondente. O escore é calculado automaticamente.</p>
+    <h3>Sentinelas individuais</h3>
+    <div class="calc-grid" id="individual-sentinels">
+      <div class="calc-item"><label for="bedridden">Acamado</label><input id="bedridden" type="number" min="0" step="1" value="0" data-points="3"><span class="score">3 pontos/pessoa</span></div>
+      <div class="calc-item"><label for="physical">Deficiência física</label><input id="physical" type="number" min="0" step="1" value="0" data-points="3"><span class="score">3 pontos/pessoa</span></div>
+      <div class="calc-item"><label for="mental">Deficiência mental</label><input id="mental" type="number" min="0" step="1" value="0" data-points="3"><span class="score">3 pontos/pessoa</span></div>
+      <div class="calc-item"><label for="sanitation-malnutrition">Desnutrição grave</label><input id="sanitation-malnutrition" type="number" min="0" step="1" value="0" data-points="3"><span class="score">3 pontos/pessoa</span></div>
+      <div class="calc-item"><label for="drug">Drogadição (termo utilizado no artigo)</label><input id="drug" type="number" min="0" step="1" value="0" data-points="2"><span class="score">2 pontos/pessoa</span></div>
+      <div class="calc-item"><label for="unemployed">Desemprego</label><input id="unemployed" type="number" min="0" step="1" value="0" data-points="2"><span class="score">2 pontos/pessoa</span></div>
+      <div class="calc-item"><label for="illiteracy">Analfabetismo</label><input id="illiteracy" type="number" min="0" step="1" value="0" data-points="1"><span class="score">1 ponto/pessoa</span></div>
+      <div class="calc-item"><label for="infant">Indivíduo menor de 6 meses</label><input id="infant" type="number" min="0" step="1" value="0" data-points="1"><span class="score">1 ponto/pessoa</span></div>
+      <div class="calc-item"><label for="elderly">Indivíduo maior de 70 anos</label><input id="elderly" type="number" min="0" step="1" value="0" data-points="1"><span class="score">1 ponto/pessoa</span></div>
+      <div class="calc-item"><label for="hypertension">Hipertensão arterial sistêmica</label><input id="hypertension" type="number" min="0" step="1" value="0" data-points="1"><span class="score">1 ponto/pessoa</span></div>
+      <div class="calc-item"><label for="diabetes">Diabetes mellitus</label><input id="diabetes" type="number" min="0" step="1" value="0" data-points="1"><span class="score">1 ponto/pessoa</span></div>
+    </div>
+    <h3>Sentinelas familiares e ambientais</h3>
+    <div class="calc-grid">
+      <div class="calc-item"><label for="sanitation">Baixas condições de saneamento (lixo a céu aberto, água sem tratamento ou esgoto a céu aberto)</label><input id="sanitation" type="checkbox" data-points="3"></div>
+      <div class="calc-item"><label for="residents">Número de moradores</label><input id="residents" type="number" min="0" step="1" value="" placeholder="Ex.: 4"></div>
+      <div class="calc-item"><label for="rooms">Número de cômodos (incluindo banheiro e cozinha)</label><input id="rooms" type="number" min="1" step="1" value="" placeholder="Ex.: 3"></div>
+    </div>
+    <p class="calc-note" id="ratio-detail">A relação moradores/cômodos será calculada quando os dois campos forem preenchidos.</p>
+    <div class="calc-result" aria-live="polite"><div><div class="calc-note">Escore familiar total</div><div class="calc-total" id="score-total">0 pontos</div><div class="calc-status" id="risk-status">Preencha os critérios para visualizar a interpretação.</div></div><div><strong id="ratio-points">0</strong><div class="calc-note">pontos da relação morador/cômodo</div></div></div>
+    <div class="calc-actions"><button type="button" id="reset-calc">Limpar cálculo</button><button type="button" class="secondary" onclick="window.print()">Imprimir resultado</button></div>
+    <div class="notice" style="margin-top:18px"><strong>Limites da classificação publicada:</strong> o artigo informa R1 (risco menor) para 5–6 pontos, R2 (risco médio) para 7–8 pontos e R3 (risco máximo) para pontuação acima de 9. A publicação não informa classificação para totais inferiores a 5 nem para exatamente 9 pontos. Nesses casos, esta calculadora não atribui uma categoria. Consulte a fonte e discuta o resultado considerando o contexto familiar.</div>
+    <p class="small"><strong>Fonte:</strong> SAVASSI, Leonardo Cançado Monteiro; LAGE, Joana Lourenço; COELHO, Flávio Lúcio Gonçalves. Sistematização de um instrumento de estratificação de risco familiar: Escala de Risco Familiar de Coelho-Savassi. <em>Journal of Management & Primary Health Care</em>, v. 3, n. 2, p. 179–185, 2012. <a href="https://doi.org/10.14295/jmphc.v3i2.155" target="_blank" rel="noopener">Acessar artigo e errata</a>.</p>
+    <p class="calc-note">Ferramenta educacional organizada a partir dos critérios publicados; não substitui a leitura do artigo, a avaliação profissional ou o julgamento clínico. Para sentinelas individuais, o artigo orienta pontuar cada indivíduo afetado. A relação morador/cômodo considera moradores divididos pelo número de cômodos, conforme errata publicada.</p>
+  </div>
+
+  <h2 id="como-usar">Como utilizar os instrumentos no ensino</h2>
+  <ol class="steps">
+    <li><strong>Definir a pergunta clínica ou pedagógica.</strong> Que aspecto da situação familiar, funcional ou assistencial precisa ser compreendido?</li>
+    <li><strong>Consultar a fonte original.</strong> Conferir população-alvo, instruções, critérios, pontuação e limitações.</li>
+    <li><strong>Aplicar conforme a versão de referência.</strong> Evitar alterar critérios ou pontos de corte sem justificativa e validação apropriadas.</li>
+    <li><strong>Discutir o resultado com o preceptor.</strong> Relacionar a informação ao contexto e ao plano de cuidado, sem usar uma pontuação isolada como substituto do julgamento clínico.</li>
+  </ol>
+
+  <h2 id="aprendizagem">Recursos de aprendizagem</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>Roteiro de visita domiciliar</h3>
+      <p>Adicionar aqui o PDF autoral com preparação, condução e discussão da visita.</p>
+      <p class="small">Substitua este espaço pelo link público do arquivo após hospedá-lo.</p>
+    </article>
+    <article class="card">
+      <h3>Casos clínicos simulados</h3>
+      <p>Use vinhetas fictícias para treinar seleção de instrumentos, interpretação de achados e construção do plano de cuidado.</p>
+      <p class="small">Não publique dados identificáveis de pacientes.</p>
+    </article>
+    <article class="card">
+      <h3>Versão interativa</h3>
+      <p>Espaço para atividades, perguntas de autoavaliação e checklist formativo do residente.</p>
+      <p class="small">Os campos devem ser usados para aprendizagem, não para armazenar dados clínicos identificáveis.</p>
+    </article>
+  </div>
+
+  <h2 id="creditos">Autoria, fontes e atualização</h2>
+  <p>Projeto educacional: <strong>Guia de Apoio para Preceptoria em MFC — Sistematização do ensino da avaliação e estratificação do cuidado domiciliar.</strong></p>
+  <p>Responsável pelo projeto: <strong>Dayana Freire Rosa</strong></p>
+  <p>Versão do site: <strong>versão educacional em desenvolvimento</strong>. Data de revisão: <strong>15 nov. 2026</strong>.</p>
+  <p class="small">Os conteúdos autorais devem ter sua licença indicada na publicação final. Instrumentos de terceiros permanecem sujeitos às respectivas licenças e autorizações. Este recurso tem finalidade educacional e não substitui protocolos locais, avaliação profissional ou julgamento clínico.</p>
+</main>
+<footer><div class="wrap">
+  <strong>Guia de Atenção Domiciliar em MFC</strong><br>
+  Recurso educacional em desenvolvimento · Verifique as fontes originais e as condições de reprodução antes de republicar instrumentos.
+</div></footer>
+
+<script>
+(function(){
+ const individual=[...document.querySelectorAll('#individual-sentinels input[data-points]')];
+ const sanitation=document.getElementById('sanitation');
+ const residents=document.getElementById('residents');
+ const rooms=document.getElementById('rooms');
+ const totalEl=document.getElementById('score-total');
+ const statusEl=document.getElementById('risk-status');
+ const ratioEl=document.getElementById('ratio-points');
+ const ratioDetail=document.getElementById('ratio-detail');
+ function update(){
+   let total=0;
+   individual.forEach(input=>{const n=Math.max(0,Math.floor(Number(input.value)||0));input.value=n;total+=n*Number(input.dataset.points);});
+   if(sanitation.checked) total+=3;
+   let ratioScore=0;
+   const nResidents=Number(residents.value), nRooms=Number(rooms.value);
+   if(residents.value!=='' && rooms.value!=='' && nRooms>0){
+     const ratio=nResidents/nRooms;
+     if(ratio>1) ratioScore=3; else if(ratio===1) ratioScore=2; else ratioScore=0;
+     ratioDetail.textContent='Relação moradores/cômodos: '+nResidents+' ÷ '+nRooms+' = '+ratio.toFixed(2).replace('.',',')+'. Pontuação: '+ratioScore+' ponto(s).';
+     total+=ratioScore;
+   }else{ratioDetail.textContent='Informe moradores e cômodos para calcular a sentinela relação morador/cômodo.';}
+   ratioEl.textContent=ratioScore; totalEl.textContent=total+' '+(total===1?'ponto':'pontos');
+   if(total>=5 && total<=6) statusEl.textContent='Classificação conforme o artigo: R1 — risco menor.';
+   else if(total>=7 && total<=8) statusEl.textContent='Classificação conforme o artigo: R2 — risco médio.';
+   else if(total>9) statusEl.textContent='Classificação conforme o artigo: R3 — risco máximo.';
+   else if(total===9) statusEl.textContent='Sem classificação indicada na publicação para exatamente 9 pontos. Consulte a fonte e avalie o contexto familiar.';
+   else statusEl.textContent='A publicação não informa categoria para pontuação inferior a 5. Não atribua classificação automática.';
+ }
+ [...individual,residents,rooms].forEach(el=>el.addEventListener('input',update));
+ sanitation.addEventListener('change',update);
+ document.getElementById('reset-calc').addEventListener('click',()=>{individual.forEach(el=>el.value=0);sanitation.checked=false;residents.value='';rooms.value='';update();});
+ update();
+})();
+</script>
+
+</body>
+</html>
